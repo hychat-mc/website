@@ -9,17 +9,19 @@ const theme = extendTheme({
 			900: '#181818',
 		},
 		green: {
-			200: '#00E18F', // Bright green (text)
-			300: '#00C67E', // Button (darker)
-			400: '#009861', // Button hover (darkest)
+			200: '#00E18F',
+			300: '#00C67E',
+			400: '#009861',
 		},
 		fonts,
 		styles: {
 			global: {
-				body: {
+				'html, body': {
 					fontFamily: 'body',
 					bg: 'gray.900',
-					color: 'white',
+					background: 'gray.900',
+					backgroundColor: 'gray.900',
+					color: 'gray.900',
 				},
 			},
 		},
