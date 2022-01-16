@@ -2,13 +2,13 @@ import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-interface MetaProps {
-	title: string;
-	description: string;
-	canonical?: string;
-}
+const metaConfig = {
+	title: 'Hychat',
+	description: "Easily create your Hypixel guild's new chat bot.", // eslint-disable-line quotes
+	url: 'https://hych.at',
+};
 
-export const Meta = (props: MetaProps) => {
+export const Meta = () => {
 	const router = useRouter();
 
 	return (
@@ -34,15 +34,15 @@ export const Meta = (props: MetaProps) => {
 				<link rel="icon" href={`${router.basePath}/favicon.ico`} key="favicon" />
 			</Head>
 			<NextSeo
-				title={props.title}
-				description={props.description}
-				canonical={props.canonical}
+				title={metaConfig.title}
+				description={metaConfig.description}
+				canonical={metaConfig.url}
 				openGraph={{
-					title: props.title,
-					description: props.description,
-					url: props.canonical,
+					title: metaConfig.title,
+					description: metaConfig.description,
+					url: metaConfig.url,
 					locale: 'en_US',
-					site_name: "Hychat - Easily create your Hypixel guild's new chat bot", // eslint-disable-line quotes
+					site_name: `${metaConfig.title} - ${metaConfig.description}`,
 				}}
 			/>
 		</>
