@@ -1,4 +1,4 @@
-import { Text, Link, VStack, SimpleGrid, Flex, Box } from '@chakra-ui/react';
+import { Text, Link, VStack, SimpleGrid, Flex, Box, chakra } from '@chakra-ui/react';
 import { CTAButton } from '../components/CTAButton';
 
 export const Hero = () => {
@@ -19,7 +19,7 @@ const DesktopHero = () => {
 			<SimpleGrid columns={[2, null, 0]} spacing={100}>
 				<VStack w="full" h="full" py={[2, 4, 6, 8]} px={[50, 130, 196]} spacing={6} align="flex-start">
 					<Text fontSize={{ base: '4xl', md: '5xl', lg: '6xl' }} fontWeight="black">
-						Expand your community with a <Text color="green.200">guild chat bridge.</Text>
+						Expand your community with a <chakra.span color="green.200">guild chat bridge.</chakra.span>
 					</Text>
 					<Text fontSize="2xl" fontWeight="light" color="white">
 						Stay tuned for more information.
@@ -42,7 +42,7 @@ const MobileHero = () => {
 		<Flex flex={{ base: 1, md: 'auto' }} ml={{ base: -2 }} display={{ base: 'flex', md: 'none' }}>
 			<Flex justifyContent="center" alignItems="center" flexDirection="column" p={30} pt={125} textAlign="center">
 				<Text fontSize="4xl" fontWeight="black">
-					Expand your community with a <Text color="green.200">guild chat bridge.</Text>
+					Expand your community with a <chakra.span color="green.200">guild chat bridge.</chakra.span>
 				</Text>
 				<Text fontSize="2xl" fontWeight="light" color="white" py={30}>
 					Stay tuned for more information.
