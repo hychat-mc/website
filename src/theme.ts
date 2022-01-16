@@ -3,6 +3,10 @@ import { extendTheme } from '@chakra-ui/react';
 const fonts = { heading: 'Inter', body: 'Inter', base: 'Inter' };
 
 const theme = extendTheme({
+	config: {
+		initialColorMode: 'dark',
+		useSystemColorMode: false,
+	},
 	colors: {
 		gray: {
 			200: '#4F4F4F',

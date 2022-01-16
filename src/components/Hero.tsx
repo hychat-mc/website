@@ -1,4 +1,5 @@
-import { Text, Link, Img } from '@chakra-ui/react';
+import { Text, Link } from '@chakra-ui/react';
+import Image from 'next/image';
 import { CTAButton } from '../components/CTAButton';
 
 export const Hero = () => {
@@ -13,7 +14,7 @@ export const Hero = () => {
 			<Link href="https://twitter.com/hychatmc" isExternal>
 				<CTAButton />
 			</Link>
-			<Img src="images/discord.png" />
+			<Image src="/discord.png" alt="Discord Example" width={430} height={240} />
 		</>
 	);
 };
