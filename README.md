@@ -6,7 +6,7 @@ The website is made with Next.js and Chakra UI.
 
 ## Workspace Layout
 
-This application is split into separate components and organized into folders. A list of folders can be found below:
+This application is split into separate components and organized into different repos. A list of repos can be found below:
 
 - [🖥️ dashboard: Dashboard UI & API](https://github.com/xMdb/hypixel-guild-chat-ts/tree/master/dashboard)
 - [🤖 discord: Discord Bot](https://github.com/xMdb/hypixel-guild-chat-ts/tree/master/discord)
