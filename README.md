@@ -12,6 +12,7 @@ This application is split into separate components and organized into different 
 - [🤖 discord: Discord Bot](https://github.com/xMdb/hypixel-guild-chat-ts/tree/master/discord)
 - [⛏️ mineflayer: Hypixel Bot](https://github.com/xMdb/hypixel-guild-chat-ts/tree/master/mineflayer)
 - [~~ℹ️ website: Front-End Website~~](https://github.com/xMdb/hypixel-guild-chat-ts/tree/master/website)
+- [🌐 backend: Backend Functionality](https://github.com/hychat-mc/backend)
 
 ## License
 
